@@ -1,8 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-text-color: #212121;
   --primary-background-color: #ffffff;
   --footer-background-color: #2f303a;
   --link: #2196f3;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*-----DELETE------*/
+.test {
+  background-color: red;
+}
+/*----------------*/
+
+
+.btn-box {display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -161,7 +193,7 @@ body {
   color: var(--link);
 }
 
-.button-portfolio {
+.button-portfolio { 
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -169,7 +201,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   font-family: "Roboto", sans-serif;
-}
+  }
+
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: var(--link);
@@ -191,4 +224,7 @@ body {
 }
 .address {
   font-style: normal;
+}
+.logo2-footer {
+  color: #ffffff;
 }
