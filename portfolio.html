@@ -16,58 +16,61 @@
   </head>
   <body>
     <header class="headerstyle">
-      <nav>
+      <nav class="container main-nav">
         <a lang="en" href="./index.html" class="logo1"
           >Web <span class="logo2">Studio</span></a
         >
-        <ul>
-          <li><a href="./studio.html" class="site-nav">Студия</a></li>
-          <li><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
-          <li><a href="./contacts.html" class="site-nav">Контакты</a></li>
+        <ul class="site-nav-group">
+          <li class="item"><a href="./studio.html" class="site-nav">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
+          <li class="item"><a href="./contacts.html" class="site-nav">Контакты</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li>
+      
+      <ul class="site-nav-contacts">
+        <li class="item">
           <a href="mailto:info@devstudio.com" class="navig"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="item">
           <a href="tel:+380961111111" class="navig">+38 096 111 11 11</a>
         </li>
+      
       </ul>
+    </nav>
     </header>
     <main>
-      <div>
+      <div class="section container">
         <h1 class="visually-hidden">Портфолио</h1>
-        <ul>
-          <li>
+        <ul class="portfolio-button">
+          <li class="item">
             <button type="button" class="button-portfolio pointer">Все</button>
           </li>
-          <li>
+          <li class="item">
             <button type="button" class="button-portfolio pointer">
               Веб-сайты
             </button>
           </li>
-          <li>
+          <li class="item">
             <button type="button" class="button-portfolio pointer">
               Приложения
             </button>
           </li>
-          <li>
+          <li class="item">
             <button type="button" class="button-portfolio pointer">
               Дизайн
             </button>
           </li>
-          <li>
+          <li class="item">
             <button type="button" class="button-portfolio pointer">
               Маркетинг
             </button>
           </li>
         </ul>
       </div>
-      <ul>
-        <li>
+      <section>
+      <ul class="container portfolio-picture">
+        <li class="item-flex">
           <a href=""
             ><img
               src="./images/portf_img/port1.jpg"
@@ -75,14 +78,14 @@
             />
             <h2 class="text-portfolio">Технокряк</h2>
             <p class="section-portfolio">Веб-сайт</p>
-            <p>
+            <!--- <p>
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
-            </p></a
+            </p>--> </a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img
               src="./images/portf_img/port2.jpg"
@@ -94,7 +97,7 @@
             <p class="section-portfolio">Дизайн</p></a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img
               src="./images/portf_img/port3.jpg"
@@ -106,21 +109,21 @@
             <p class="section-portfolio">Приложение</p></a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img src="./images/portf_img/port4.jpg" alt="наушники" />
             <h2 class="text-portfolio">Проект <span lang="en">Prime</span></h2>
             <p class="section-portfolio">Маркетинг</p></a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img src="./images/portf_img/port5.jpg" alt="коробки" />
             <h2 class="text-portfolio">Проект <span lang="en">Boxes</span></h2>
             <p class="section-portfolio">Приложение</p></a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img src="./images/portf_img/port6.jpg" alt="монитор компьютера" />
             <h2 lang="en" class="text-portfolio">
@@ -129,7 +132,7 @@
             <p class="section-portfolio">Веб-сайт</p></a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img src="./images/portf_img/port7.jpg" alt="открытая книга" />
             <h2 class="text-portfolio">
@@ -138,14 +141,14 @@
             <p class="section-portfolio">Дизайн</p></a
           >
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img src="./images/portf_img/port8.jpg" alt="бирка" />
             <h2 class="text-portfolio">Проект <span lang="en">LAB</span></h2>
             <p class="section-portfolio">Маркетинг</p>
           </a>
         </li>
-        <li>
+        <li class="item-flex">
           <a href=""
             ><img src="./images/portf_img/port9.jpg" alt="работа за ноутбуком" />
             <h2 lang="en" class="text-portfolio">Growing Business</h2>
@@ -154,12 +157,12 @@
         </li>
       </ul>
     </main>
-    <footer class="footer-style">
+    <footer class="container footer-style">
       <a lang="en" href="./index.html" class="logo1"
-        >Web <span class="logo2-footer">Studio</span></a
+        >Web<span class="logo2-footer">Studio</span></a
       >
       <address class="address">
-        <ul>
+        <ul class="no-padding-margin-footer">
           <li>
             <a
               href="https://goo.gl/maps/JHi3sMc7yfitEbeEA"
@@ -178,6 +181,7 @@
             >
           </li>
         </ul>
+      </section>
       </address>
     </footer>
   </body>
