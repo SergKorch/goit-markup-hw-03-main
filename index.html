@@ -18,15 +18,15 @@
     <header>
       <nav>
         <a lang="en" href="./index.html" class="logo1"
-          >Web<span class="logo2">Studio</span></a
+          >Web <span class="logo2">Studio</span></a
         >
-        <ul>
+        <ul class="site-nav">
           <li><a href="./studio.html" class="site-nav active">Студия</a></li>
           <li><a href="./portfolio.html" class="site-nav active">Портфолио</a></li>
           <li><a href="./contacts.html" class="site-nav active">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="site-nav">
         <li>
           <a href="mailto:info@devstudio.com" class="navig"
             >info@devstudio.com</a
@@ -37,6 +37,7 @@
     </header>
 
     <main>
+      
       <section class="section-hero">
         <h1 class="section-hero-text">
           Эффективные решения для вашего бизнеса
@@ -44,9 +45,10 @@
         <button  type="button" class="button-hero">Заказать услугу</button>
       </section>
       <!--секция рекомендации бизнесу-->
-      <section>
+      <div class="section-first-main">
+      <section class="no-margin">
         <h2 class="visually-hidden">Рекомендации для бизнеса</h2>
-        <ul>
+        <ul class="section-first">
           <li>
             <h3 class="section">Внимание к деталям</h3>
             <p class="section-title">
@@ -77,10 +79,11 @@
           </li>
         </ul>
       </section>
+    
       <!--секция команда компании-->
       <section>
         <h2 class="section-comand">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="no-margin">
           <li>
             <img src="./images/box1.jpg" width="370" alt="чем мы занимаемся" />
           </li>
@@ -92,10 +95,10 @@
           </li>
         </ul>
       </section>
-
+    </div>
       <section class="command">
         <h2 class="section-comand">Наша команда</h2>
-        <ul>
+        <ul class="no-margin">
           <li>
             <img src="./images/img-2.jpg" width="270" alt="Наша команда" />
             <h3 class="comand-name">Игорь Демьяненко</h3>
@@ -122,7 +125,7 @@
 
     <footer class="footer-style">
       <a lang="en" href="./index.html" class="logo1"
-        >Web<span class="logo2-footer">Studio</span></a
+        >Web <span class="logo2-footer">Studio</span></a
       >
       <address class="address">
         <ul>
