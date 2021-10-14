@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="headerstyle">
@@ -25,13 +25,13 @@
         >
         <ul class="site-nav-group">
           <li class="item">
-            <a href="./studio.html" class="site-nav">Студия</a>
+            <a href="./index.html" class="site-nav">Студия</a>
           </li>
           <li class="item">
             <a href="./portfolio.html" class="site-nav">Портфолио</a>
           </li>
           <li class="item">
-            <a href="./contacts.html" class="site-nav">Контакты</a>
+            <a href="./index.html" class="site-nav">Контакты</a>
           </li>
         </ul>
 
@@ -48,9 +48,10 @@
       </nav>
     </header>
     <main>
-      <div class="section">
-        <h1 class="container visually-hidden">Портфолио</h1>
-        <ul class="portfolio-button">
+      <section class="section">
+      <div class="container">
+        <h1 class="visually-hidden">Портфолио</h1>
+        <ul class="portfolio-button no-margin">
           <li class="item">
             <button type="button" class="button-portfolio pointer">Все</button>
           </li>
@@ -76,7 +77,7 @@
           </li>
         </ul>
         <section>
-          <ul class="portfolio-picture container">
+          <ul class="portfolio-picture no-margin">
             <li class="item-flex">
               <a href=""
                 ><img
@@ -177,12 +178,15 @@
           </ul>
         </section>
       </div>
+    </section>
     </main>
-    <footer class="container footer-style">
+    <footer class="footer-style">
+      <div class="container section-footer">
       <a lang="en" href="./index.html" class="logo1"
         >Web<span class="logo2-footer">Studio</span></a
       >
       <address class="address">
+      
         <ul class="no-padding-margin-footer">
           <li class="item">
             <a
@@ -203,6 +207,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
